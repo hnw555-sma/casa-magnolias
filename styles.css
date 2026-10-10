@@ -7,3 +7,21 @@
 .hero-photo-label{position:absolute;bottom:18px;left:18px;padding:7px 12px;border-radius:3px;background:rgba(25,39,32,.85);font-size:.76rem;color:#fff;letter-spacing:.02em}
 @media(max-width:800px){.hero-photo{min-height:360px}}
 @media(max-width:520px){.hero-photo{min-height:310px}}
+
+/* Homepage carousel — arrows, dots, and swipeable images */
+.hero-carousel{position:relative;min-height:550px;background:#1d2e27;overflow:hidden;touch-action:pan-y}
+.hero-slides{position:absolute;inset:0}
+.hero-slide{position:absolute;inset:0;margin:0;opacity:0;visibility:hidden;transition:opacity .35s ease,visibility .35s;pointer-events:none}
+.hero-slide.is-active{opacity:1;visibility:visible;pointer-events:auto}
+.hero-slide img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.hero-slide figcaption{position:absolute;bottom:64px;left:22px;right:22px;width:max-content;max-width:calc(100% - 44px);background:rgba(20,37,29,.88);padding:7px 11px;border-radius:3px;color:#fff;font-size:.8rem}
+.carousel-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:44px;height:52px;border:0;border-radius:4px;background:rgba(20,37,29,.75);color:white;font-size:2.2rem;line-height:1;cursor:pointer;display:grid;place-items:center}
+.carousel-arrow:hover,.carousel-arrow:focus-visible{background:#253b32;outline:2px solid #e8c5a7;outline-offset:2px}
+.carousel-prev{left:14px}.carousel-next{right:14px}
+.carousel-bottom{position:absolute;bottom:15px;left:0;right:0;z-index:2;display:flex;align-items:center;justify-content:center;gap:20px}
+.carousel-dots{display:flex;align-items:center;gap:9px}.carousel-dot{width:11px;height:11px;border-radius:50%;background:#ffffff88;border:1px solid #fff;cursor:pointer;padding:0}
+.carousel-dot[aria-current="true"]{background:#e8c5a7;border-color:#e8c5a7;transform:scale(1.2)}
+.carousel-count{color:white;font-size:.8rem;font-weight:700;text-shadow:0 1px 5px #111}
+@media(max-width:800px){.hero-carousel{min-height:390px}}
+@media(max-width:520px){.hero-carousel{min-height:340px}.carousel-arrow{height:44px;width:38px}.hero-slide figcaption{bottom:61px;font-size:.72rem}}
+@media(prefers-reduced-motion:reduce){.hero-slide{transition:none}}
