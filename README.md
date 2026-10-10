@@ -29,3 +29,9 @@ File names should use lowercase letters, numbers, and hyphens, without spaces. K
 - Edit the introductory text in `index.html`.
 - Edit colors in the `:root` CSS variables near the start of `styles.css`.
 - The illustrated header is made in CSS, so no stock imagery is required.
+
+
+## Diamante renderings (October 2026 update)
+Four architectural concept images are included under `assets/photos/`. The exterior is used on the homepage and all four appear in the photo gallery. They are model renderings, **not photographs of the completed house**.
+
+To update an existing GitHub Pages repository: upload `index.html`, `styles.css`, `site-data.js`, and the **four image files inside `assets/photos/`**, preserving the folder structure. You do not need to delete existing repository files. Confirm you have permission to republish the developer's renderings on a public website.

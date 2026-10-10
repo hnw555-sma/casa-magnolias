@@ -10,10 +10,10 @@ const milestones = [
 // To replace a placeholder, put an image in assets/photos/ and add its path as src.
 // Example: {title:'Kitchen progress',date:'October 2026',src:'assets/photos/kitchen.jpg'}
 const photos = [
-  {title:'Exterior progress',date:'Photos coming soon',src:''},
-  {title:'The kitchen',date:'Photos coming soon',src:''},
-  {title:'Living spaces',date:'Photos coming soon',src:''},
-  {title:'Bedrooms',date:'Photos coming soon',src:''},
-  {title:'Outdoor spaces',date:'Photos coming soon',src:''},
-  {title:'Finishing touches',date:'Photos coming soon',src:''}
+  {title:'Diamante exterior',date:'Architectural rendering · Design concept',src:'assets/photos/diamante-exterior.webp'},
+  {title:'Living and dining spaces',date:'Architectural rendering · Design concept',src:'assets/photos/diamante-living-dining.webp'},
+  {title:'Walk-in closet',date:'Architectural rendering · Design concept',src:'assets/photos/diamante-closet.webp'},
+  {title:'Bedroom',date:'Architectural rendering · Design concept',src:'assets/photos/diamante-bedroom.webp'},
+  {title:'Construction progress',date:'Actual photos coming soon',src:''},
+  {title:'Finishing touches',date:'Actual photos coming soon',src:''}
 ];
