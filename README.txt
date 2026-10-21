@@ -1,0 +1,1 @@
+Casa Magnolias v6. Upload index.html AND the assets/photos directory to the repository root, preserving folder structure. The four-rendering hero carousel and noindex meta tag remain. Videos are excluded pending review. Construction photo groups are based on visual content rather than verified timestamps.
