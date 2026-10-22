@@ -41,3 +41,10 @@
 
 /* Section-based lightbox navigation */
 #lightbox{position:fixed;width:min(1100px,96vw);max-width:96vw;padding:18px 60px 18px;overflow:auto;color:#24372e}#lightbox img{display:block;margin:auto;max-height:72vh;max-width:100%;width:auto;height:auto}#lightbox .lightbox-nav{position:absolute;inset:0;pointer-events:none;display:flex;align-items:center;justify-content:space-between;padding:0 7px}#lightbox .lightbox-nav button{pointer-events:auto;border:0;border-radius:50%;width:44px;height:44px;background:#253b32e8;color:white;font-size:1.35rem;cursor:pointer}#lightbox .lightbox-nav button:hover{background:#b8775c}#lightbox .lightbox-nav button:disabled{opacity:.3;cursor:default}#lightbox .lightbox-position{color:#58675d;font-size:.85rem;margin:3px 0}#lightbox .close{z-index:2}#lightboxCaption{padding-top:8px}@media(max-width:600px){#lightbox{padding:36px 38px 14px}#lightbox .lightbox-nav{padding:0 1px}#lightbox .lightbox-nav button{width:36px;height:36px}#lightbox img{max-height:66vh}}
+
+/* Construction montage: responsive native HTML5 player */
+.construction-video{margin-top:3.5rem;background:#fff;padding:clamp(16px,3.5vw,38px);border-radius:10px;box-shadow:0 3px 18px #27332e15}
+.construction-video h3{font-family:'Playfair Display',Georgia,serif;font-size:clamp(1.45rem,2.4vw,2.15rem);margin:0 0 12px}
+.construction-video p{color:#55645a;line-height:1.55}
+.construction-video video{width:100%;height:auto;max-height:75vh;display:block;background:#1d2e27;border-radius:6px;aspect-ratio:16/9}
+.construction-video .video-credit{font-size:.76rem;margin:12px 0 0}

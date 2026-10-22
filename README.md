@@ -21,3 +21,9 @@ Keep the `CNAME` file in the repository; it points the site at `casamagnolias.ne
 Run `python tools/validate.py` from the site root to verify every referenced image, script, and stylesheet exists.
 
 Privacy: `noindex, nofollow` remains in the HTML but does not restrict public access.
+
+## Version 20
+- Adds a 47.5-second bilingual montage with Mexican guitar accompaniment in `assets/videos/`.
+- Retains the October 22 bedroom and sala flooring photos from Version 19 in Interior Progress.
+- Videos use the native HTML5 player (click to play; no autoplay).
+- All files in this archive should be uploaded preserving directory structure; the `CNAME` should remain in the repository.

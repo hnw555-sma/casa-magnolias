@@ -7,6 +7,15 @@ translations["Ground floor · Architectural floor plan"]="Planta baja · Plano a
 translations["Upper floor · Architectural floor plan"]="Planta alta · Plano arquitectónico";
 translations["Walk-in closet · Architectural rendering"]="Vestidor · Render arquitectónico";
 translations["Rendering of the walk-in closet"]="Render del vestidor";
+translations['Bedroom flooring — October 22']='Piso de la recámara — 22 de octubre';
+translations['Floor tile installation in the sala — October 22']='Colocación de piso en la sala — 22 de octubre';
+
+translations['FROM THE CONSTRUCTION SITE']='DESDE LA OBRA';
+translations['Casa Magnolias — Construction Montage']='Casa Magnolias — Video de la construcción';
+translations['From concrete work to the finishing touches: a short look at our home taking shape, with Mexican guitar music.']='Del colado de concreto a los acabados: un vistazo a cómo va tomando forma nuestro hogar, acompañado de guitarra mexicana.';
+translations['Music: “Acoustic Mexican Guitar” — Drippeados · Used under the Pixabay Content License.']='Música: “Acoustic Mexican Guitar” — Drippeados · Usada bajo la licencia de contenido de Pixabay.';
+translations['Your browser does not support HTML5 video.']='Tu navegador no admite video HTML5.';
+translations['Casa Magnolias construction montage']='Video de la construcción de Casa Magnolias';
 const originals = new WeakMap();
 const originalAttrs = new WeakMap();
 let language='en';
